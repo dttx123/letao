@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+.mt_150{
+    margin-top:150px;
+}
+
+#nprogress .bar{
+    background-color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+a,a:hover,a:active,a:link,a:visited{
+    text-decoration: none;
+}
+
+/*网页侧边栏公共样式*/
+
+.lt-aside{
+    width: 180px;
+    height: 100%;
+    background-color: #222d32;
+    position: absolute;
+}
+
+.lt-aside .brand a {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: #337ab7;
+    color:#fff;
+}
+.lt-aside .user{
+    text-align: center;
+    padding:20px 0px;
+    color:#fff;
+}
+.lt-aside .user img{
+    height: 70px;
+    border-radius: 50%;
+}
+.lt-aside .user span{
+    display: block;
+    margin-top:10px;
+}
+.lt-aside .menu,
+.lt-aside .menu a{
+    color:#aaa;
+}
+.lt-aside li.current>a{
+    background-color: #1d1f21;
+    border:2px solid transparent;
+    border-left:2px solid #3c8dbc;
+    color:#fff;
+}
+.lt-aside li.current>a,
+.lt-aside a.current{
+    color:#fff;
+}
+.lt-aside .current .child{
+    display: block;
+}
+.lt-aside li>a{
+    display: block;
+    height: 35px;
+    padding-left:30px;
+    line-height: 35px;
+}
+.lt-aside .child {
+    display: none;
+}
+.lt-aside .child a{
+    display: block;
+    height: 35px;
+    padding-left:50px;
+    line-height: 35px;
+}
+
+
+
+.lt-main{
+    height: 100%;
+    padding-left:180px;
+}
+
+.lt-main .nav{
+    height: 50px;
+    background-color:#3c8dbc;
+    line-height: 50px;
+    padding:0 20px;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.lt-main .nav a{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
